@@ -1,6 +1,6 @@
  ## ToDo List Project
  
  ### Features 
-  ##### add 
-  ##### edit
-  ##### delete 
+  ###### add 
+  ###### edite
+  ###### delete 
