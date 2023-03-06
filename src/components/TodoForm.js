@@ -4,9 +4,9 @@ export default function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault();  //bo jebajekrdny actionakaya
     if (!value) return;
-    addTodo(value);
+    addTodo(value); //calling addTodo function
     setValue("");
   };
 
@@ -27,3 +27,4 @@ export default function TodoForm({ addTodo }) {
     </form>
   );
 }
+

@@ -22,6 +22,7 @@ function TodoList() {
     setTodos(newTodos);
   };
 
+  
   return (
     <div className="bg-slate-900 min-h-screen ">
        <div className="p-5 max-w-2xl mx-auto">
